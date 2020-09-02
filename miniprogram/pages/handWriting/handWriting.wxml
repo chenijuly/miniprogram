@@ -1,0 +1,21 @@
+<import src="../../components/hand-writing/hand-writing.wxml"/>
+
+<view class="wrapper">
+    <view class="handBtn">
+        <view catchtap="retDraw" class="delBtn {{btnDisable ? 'disabled-delBtn' : ''}}">重写</view>
+        <view catchtap="subCanvas" class="subBtn {{btnDisable ? 'disabled-btn' : ''}}">确定</view>
+    </view>
+    <toast id='toast'>
+    </toast>
+    <view class="handContent">
+        <view class="handTitle">
+            <text class="handFont" wx:for="{{handTitle1}}">{{item}}</text>
+        </view>
+        <template is="handwriting" bind:myevent="onMyEvent">
+            <!-- <view bind:tap="click_next">模板点击事件</view> -->
+        </template>
+    </view>
+</view>
+<!-- <loading wx:if="{{loadingHidden}}">
+    签约中...
+</loading> -->

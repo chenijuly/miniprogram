@@ -1,0 +1,51 @@
+/* components/normal-content/index.wxss */
+.label-area{
+  display: flex;
+  padding-top: 20rpx;
+}
+.content-block{
+  background: #FFF;
+  margin: 0 10rpx;
+}
+.content-label{
+  border-top-right-radius: 27rpx;
+  border-bottom-right-radius: 27rpx;
+  height: 56rpx;
+  width: 164rpx;
+  line-height: 56rpx;
+  background: #5C58CD;
+  color: #fff;
+  text-align: center;
+  font-size: 26rpx;
+}
+.split-bar{
+  border-top: dotted #5c58cd31 4rpx;
+  margin-top: 28rpx;
+  width: 100%;
+}
+.split-bar-none{
+  border-top: dotted #fff 2rpx;
+  margin-top: 28rpx;
+  width: 100%;
+}
+.item-list{
+  color: #666;
+  font-size: 28rpx;
+  display:flex;
+}
+.item-label{
+  display: flex;
+  line-height: 28rpx;
+}
+.spot-icon{
+  width: 32rpx;
+  height: 32rpx;
+  padding-top: 6rpx;
+}
+.item-value{
+  color: #999;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0 8rpx;
+  line-height: 28rpx;
+}

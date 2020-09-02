@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "合同要素确认书",
+  "usingComponents":{
+    "toast": "/components/toast/toast"
+  }
+}

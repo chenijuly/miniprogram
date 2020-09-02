@@ -1,0 +1,29 @@
+/* components/toast/toast.wxss */
+.wx-toast-box{
+  display: flex;
+  width: 50%;
+  height: 10vh;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  bottom:50%;
+  opacity: 0;
+  transform: rotate(90deg);
+  margin-left:20%;
+}
+.wx-toast-content{
+  width:80%;
+  border-radius:30rpx;
+  padding: 30rpx;
+  background: rgba(0, 0, 0, 0.6);
+}
+.wx-toast-toast{
+  width:100%;
+  color:#fff;
+  font-size:28rpx;
+  text-align:center;
+  bottom:10%;
+  justify-content:center;
+  padding-bottom:50%;
+  padding-right:50%;
+}

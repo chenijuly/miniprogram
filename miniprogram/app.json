@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/info",
+    "pages/handWriting/handWriting"
+  ],
+  "subpackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "package/index/index",
+        "package/userConsole/userConsole",
+        "package/storageConsole/storageConsole",
+        "package/databaseGuide/databaseGuide",
+        "package/addFunction/addFunction",
+        "package/deployFunctions/deployFunctions",
+        "package/chooseLib/chooseLib",
+        "package/openapi/openapi",
+        "package/openapi/serverapi/serverapi",
+        "package/openapi/callback/callback",
+        "package/openapi/cloudid/cloudid",
+        "package/im/im",
+        "package/im/room/room"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

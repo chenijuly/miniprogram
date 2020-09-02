@@ -1,0 +1,8 @@
+<!--miniprogram/pages/detail/info.wxml-->
+<view wx:for="{{detailList}}" wx:key="{{index}}">
+  <normal-content
+    content="{{item}}"
+    split="{{index>0}}"
+  >
+  </normal-content>
+</view>

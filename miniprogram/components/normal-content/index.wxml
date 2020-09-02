@@ -1,0 +1,17 @@
+<!--components/normal-content/index.wxml-->
+<view class="content-block">
+  <view class="label-area">
+    <view class="content-label">{{content.label}}</view>
+    <view class="{{split ? 'split-bar' : 'split-bar-none'}}"></view>
+  </view>
+  <view>
+    <view wx:for="{{content.content}}" class="item-list" >
+      <view class="item-label">
+        <image src="../../images/spot.png" class="spot-icon"></image>{{item.label}}
+      </view>
+      <view class="item-value">
+        {{item.value}}
+      </view>
+    </view>
+  </view>
+</view>

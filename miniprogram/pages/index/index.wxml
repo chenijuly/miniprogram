@@ -1,0 +1,12 @@
+<!--miniprogram/pages/index/index.wxml-->
+<view class="block-view">
+  <view class="fix-btn" catchtap="showShadow">
+    查看
+  </view>
+  <view class="shadow-page" wx:if="{{shadowShow}}" catchtap="changeShadow">  
+    <view class="center-content">
+      hello
+    </view>
+  </view>
+</view>
+

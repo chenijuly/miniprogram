@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "normal-content": "../../components/normal-content/index"
+  }
+}
